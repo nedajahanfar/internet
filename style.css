@@ -1,0 +1,174 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Neuropol X';
+}
+
+.hero{
+    background: black;
+    min-height: 20vh;
+    width:100%;
+    color:white;
+    position:relative;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding:20px 8%;
+}
+
+.logo-img{
+    width:80px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+button{
+    background: #efefef;
+    height:30px;
+    width:60px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+button span{
+    display: block;
+    background: #999;
+    height:26px;
+    width:26px;
+    border-radius: 50%;
+    margin-left: 2px;
+
+}
+
+.text{
+    width:90%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    padding-left:60%;
+    line-height: 25px;
+    letter-spacing:2px;
+    word-spacing: 4px;
+}
+
+.text h2{
+    color:red;
+    padding-right:65px;
+    padding-bottom: 2%;
+
+}
+
+.continue-text{
+    width:100%;
+    padding-left:40px;
+    padding-right:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:112vh;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height:27px;
+    margin-bottom: 40px;
+}
+
+.lamp-container{
+    position:absolute;
+    top:-20px;
+    left:22%;
+    width:200px;
+}
+
+.lamp{
+    width:100%;
+}
+
+.lamp-txt{
+    font-size: 10px;
+    padding-top:40px;
+}
+
+.light{
+    position: absolute;
+    top:97%;
+    left:50%;
+    transform: translateX(-50%);
+    width:700px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.text-holder{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.active{
+background: green;
+}
+
+.active span{
+ background: white;
+ margin-left: 31px;
+
+}
+
+.on{
+    opacity:1;
+}
+
+
+@media(max-width:960px){
+    .lamp-container{
+        display:none;
+    }
+    .text{
+     width:100%;
+     padding:10px 10px;
+
+    }
+
+    .text h2{
+        width:100%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    #btn{
+        display: none;
+    }
+}

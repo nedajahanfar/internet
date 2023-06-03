@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width
+    , initial-scale=1.0">
+    <title>basic knowledge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<div class="hero">
+    <nav>
+        <img src="images/Circle Education Badge Logo.png" class="logo-img">
+        <ul>
+            <li><a href="https://nedajahanfar.github.io/js-projects/">Javascript project</a></li>
+            <li><a href="https://nedajahanfar.github.io/contactme-page/">contacts</a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+    </nav>
+</div>
+
+<div class="text">
+    <h2>Basic Concepts
+    </h2>
+    <p><span style="font-style: italic;margin-bottom: 10px;font-size: 12px;padding-right: 13px;">~Turn on the light and let's get started ~<br></span>
+    So what is internet? the internet is like a wire , two computers connected
+    directly or indirectly to this wire can communicate with each other.
+    you must have heard the word 'server', a server is a computer connected directly to the internet
+    , it displays webpages and files that are stored in it's hard drive.your computer is not a server it is
+    a client , because it is not connected directly to the internet.so now the question is how are you able to 
+    use the internet? your internet service provider connects your computer to the internet. 
+    first you send your request to the internet service provider,it connects to the internet then goes to the related server
+    get's the result and comes back.everything connected directly or indiretly to the internet 
+     has a unique protocol adress (or IP address),IP address is like a postal code
+    for the computers, it helps computers to find each other.but since humans can not remember
+    Ip addresses they use domain name instead.like (google.com).</p>
+    
+</div>
+
+<div class="continue-text">
+    <p>but computers need to communicate through
+     IP addresses not human selected domain names.(if you and your friends have a secret code for refering
+     to a place,you can not expect the postman to understand your code.)
+     that is where we need DNS ,DNS stands for domain name system and it is responsible for translating domain names
+     into IP addresses.whenever you send something ,an image for example,computers break the information into
+     smaller pieces called 'packets'.when info reaches it's destination the packets are reassembled in their original order.
+     but how does the internet understand to send a data to a specefic root? if you are searching for a new job
+     and your boss is doing market research using the same internet provider at the office what keeps your results
+     from getting mixed ? anywhere two or more parts of the internet interact there is a piece of equipment called router,
+     router directs your pocket around the internet.any time you visit a website upward of 10-15 routers may help your
+     pockets to find their way to and from your computer.imagine each pocket as a piece of candy.It is wrapped in your computer
+     IP address.first router adds it's own candy wrapper to this candy, each time a pocket reaches a new router another layer
+     is added until it reaches the server.when the server sends back the info it creats pockets with identical wrapping.
+     as it goes back to your computer,each router unpacks a layer to discover where to send the pocket next,until it
+     reaches your computer.</p>
+
+</div>
+
+
+
+<div class="lamp-container">
+    <img src="images/lamp.jpg" class="lamp">
+    <img src="images/light.jpg" class="light" id="light">
+</div>
+
+   
+
+
+<script src="javascript.js"></script>
+
+
+</body>
+</html>
